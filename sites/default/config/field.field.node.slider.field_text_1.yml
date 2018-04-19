@@ -1,0 +1,19 @@
+uuid: c0230af3-1da6-4a6c-99bb-cc7cb95f4763
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_1
+    - node.type.slider
+id: node.slider.field_text_1
+field_name: field_text_1
+entity_type: node
+bundle: slider
+label: 'Text 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

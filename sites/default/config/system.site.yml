@@ -1,0 +1,14 @@
+uuid: 3565093f-0dbb-4f01-90f9-747e5ce5d66f
+name: QED
+mail: tanmay.kadam@qed42.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/4
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

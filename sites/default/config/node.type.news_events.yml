@@ -1,0 +1,17 @@
+uuid: af05e0fa-3d29-4653-b86a-54ff7f7d60ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'News & Events'
+type: news_events
+description: 'News and events'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

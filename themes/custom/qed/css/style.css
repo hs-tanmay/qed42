@@ -1,0 +1,139 @@
+/* line 1, ../sass/components/_main-slider.scss */
+.owl-pagination {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
+/* line 6, ../sass/components/_main-slider.scss */
+.owl-page {
+  display: block !important;
+  margin-bottom: 12px;
+}
+
+/* line 1, ../sass/components/_column-with-background.scss */
+.theme_button {
+  padding: 23px 40px;
+  letter-spacing: 0.2em;
+  border-radius: 30px;
+}
+
+/* line 6, ../sass/components/_column-with-background.scss */
+.topmargin_30 {
+  margin-top: 30px;
+}
+
+/* line 9, ../sass/components/_column-with-background.scss */
+.small-text + .section_header {
+  margin-top: -10px;
+}
+
+/* line 12, ../sass/components/_column-with-background.scss */
+.ls .highlight, .ls .highlight1, .field--name-field-small-text {
+  color: #bf3654;
+  border-color: #bf3654;
+}
+
+/* line 16, ../sass/components/_column-with-background.scss */
+.section_header {
+  font-size: 48px;
+}
+
+/* line 19, ../sass/components/_column-with-background.scss */
+.section_padding_bottom_150 > [class*="container"] {
+  padding-bottom: 150px;
+}
+
+/* line 22, ../sass/components/_column-with-background.scss */
+.section_padding_top_150 > [class*="container"] {
+  padding-top: 150px;
+}
+@media (max-width: 1200px) {
+  /* line 22, ../sass/components/_column-with-background.scss */
+  .section_padding_top_150 > [class*="container"] {
+    padding-top: 75px;
+  }
+}
+
+/* line 28, ../sass/components/_column-with-background.scss */
+.field--name-field-link-button {
+  margin-top: 30px;
+}
+/* line 30, ../sass/components/_column-with-background.scss */
+.field--name-field-link-button a {
+  padding: 23px 40px;
+  letter-spacing: 0.2em;
+  border-radius: 30px;
+  background-color: #bf3654;
+  color: #ffffff;
+  min-width: 200px;
+  transition: all 0.4s linear 0s;
+}
+/* line 38, ../sass/components/_column-with-background.scss */
+.field--name-field-link-button a:hover {
+  text-decoration: none;
+  background-color: #fab915;
+}
+
+/* line 44, ../sass/components/_column-with-background.scss */
+.section_about.background_cover {
+  	/*
+      background-image: url(/themes/custom/qed/images/about.jpg);
+      */
+  background-position: right center;
+}
+@media (min-width: 992px) {
+  /* line 44, ../sass/components/_column-with-background.scss */
+  .section_about.background_cover {
+    background-position: center center;
+  }
+}
+
+/* line 53, ../sass/components/_column-with-background.scss */
+.section_currency_calculator.background_cover {
+  background-image: url(/themes/custom/qed/images/calculator.jpg);
+  background-position: left center;
+}
+@media (min-width: 992px) {
+  /* line 53, ../sass/components/_column-with-background.scss */
+  .section_currency_calculator.background_cover {
+    background-position: center center;
+  }
+}
+
+/* line 60, ../sass/components/_column-with-background.scss */
+.field--name-field-small-text {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* line 66, ../sass/components/_column-with-background.scss */
+.background_cover {
+  background-size: cover;
+}
+
+/* line 2, ../sass/components/_news-event.scss */
+.news-event-wrapper .views-field.views-field-nothing {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 8, ../sass/components/_news-event.scss */
+h4.entry-title {
+  line-height: 1.2;
+  font-size: 24px;
+}
+/* line 11, ../sass/components/_news-event.scss */
+h4.entry-title a {
+  color: #333333;
+}
+
+@media (min-width: 1200px) {
+  /* line 16, ../sass/components/_news-event.scss */
+  .item-content.with_overlapped_button {
+    padding: 55px;
+  }
+}

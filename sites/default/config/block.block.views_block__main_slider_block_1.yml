@@ -1,0 +1,30 @@
+uuid: 1456c1d5-b450-46e2-a855-98316f24a4d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.main_slider
+  module:
+    - system
+    - views
+  theme:
+    - qed
+id: views_block__main_slider_block_1
+theme: qed
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:main_slider-block_1'
+settings:
+  id: 'views_block:main_slider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

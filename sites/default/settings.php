@@ -19,10 +19,7 @@ include __DIR__ . "/settings.pantheon.php";
 /**
  * If there is a local settings file, then include it
  */
-$local_settings = __DIR__ . "/settings.local.php";
-if (file_exists($local_settings)) {
-  include $local_settings;
-}
+
 $databases['default']['default'] = array (
   'database' => 'qed',
   'username' => 'root',
@@ -35,3 +32,7 @@ $databases['default']['default'] = array (
 );
 $settings['hash_salt'] = 'mOCDND4bcKihXEydUwtMaJb04mP_g32lryDY9R26rtFLrnvU31hC2Ie9jB2d_0ikpmnprDulXA';
 $settings['install_profile'] = 'standard';
+$local_settings = __DIR__ . "/settings.local.php";
+if (file_exists($local_settings)) {
+  include $local_settings;
+}

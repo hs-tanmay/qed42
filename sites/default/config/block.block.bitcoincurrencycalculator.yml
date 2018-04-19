@@ -1,0 +1,31 @@
+uuid: 1d786a94-a539-467b-b21c-54882a2bb2c0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:column_with_background:e3f76fac-7d7d-41bb-b719-487fcbc8e932'
+  module:
+    - block_content
+    - system
+  theme:
+    - qed
+id: bitcoincurrencycalculator
+theme: qed
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:e3f76fac-7d7d-41bb-b719-487fcbc8e932'
+settings:
+  id: 'block_content:e3f76fac-7d7d-41bb-b719-487fcbc8e932'
+  label: 'Bitcoin Currency Calculator'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

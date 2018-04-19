@@ -1,0 +1,20 @@
+uuid: 84af333e-35ec-4802-b787-a347c9be834b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - qed
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: qed_local_actions
+theme: qed
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

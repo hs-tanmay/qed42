@@ -1,0 +1,9 @@
+uuid: 20def09f-1561-44e3-8620-6789a20df6de
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'News and Events category'
+hierarchy: 0
+weight: 0

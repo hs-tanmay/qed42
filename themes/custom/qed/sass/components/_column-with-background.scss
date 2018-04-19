@@ -1,0 +1,68 @@
+.theme_button {
+    padding: 23px 40px;
+    letter-spacing: 0.2em;
+    border-radius: 30px;
+}
+.topmargin_30 {
+    margin-top: 30px;
+}
+.small-text + .section_header {
+    margin-top: -10px;
+}
+.ls .highlight, .ls .highlight1, .field--name-field-small-text{
+    color: $strong-pink;
+    border-color: $strong-pink;
+}
+.section_header {
+    font-size: 48px;
+}
+.section_padding_bottom_150 > [class*="container"] {
+    padding-bottom: 150px;
+}
+.section_padding_top_150 > [class*="container"] {
+    padding-top: 150px;
+    @media (max-width: 1200px) {
+      padding-top: 75px;
+    }
+}
+.field--name-field-link-button {
+	margin-top: 30px;
+  a {
+    padding: 23px 40px;
+	letter-spacing: 0.2em;
+	border-radius: 30px;
+	background-color: $strong-pink;
+	color: $white;
+	min-width: 200px;
+	transition: all 0.4s linear 0s;
+	&:hover {
+		text-decoration: none;
+		background-color: $yellow; 
+	 }
+	}
+}
+.section_about.background_cover {
+	/*
+    background-image: url(/themes/custom/qed/images/about.jpg);
+    */
+    background-position: right center;
+    @media (min-width: 992px) {
+      background-position: center center;
+    }
+}
+.section_currency_calculator.background_cover {
+    background-image: url(/themes/custom/qed/images/calculator.jpg);
+    background-position: left center;
+    @media (min-width: 992px) {
+      background-position: center center;
+    }
+}
+.field--name-field-small-text {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.background_cover {
+	background-size: cover;
+    }

@@ -1,0 +1,22 @@
+uuid: 769eea9d-93d7-4b24-ad87-60b0674d6c07
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.column_with_background
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.column_with_background.body
+field_name: body
+entity_type: block_content
+bundle: column_with_background
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

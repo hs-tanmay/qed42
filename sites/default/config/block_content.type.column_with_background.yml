@@ -1,0 +1,8 @@
+uuid: fd3e498b-809f-4d82-a9b5-f7779e626f96
+langcode: en
+status: true
+dependencies: {  }
+id: column_with_background
+label: 'Column with Background'
+revision: 0
+description: 'Column with background image.'

@@ -1,0 +1,22 @@
+uuid: b46c2668-15e2-4ebc-97b8-e2a59712769a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - qed
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: qed_help
+theme: qed
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

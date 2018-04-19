@@ -1,0 +1,23 @@
+uuid: 9b9dd81d-819c-4c57-af19-460224412b83
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.column_with_background
+    - field.storage.block_content.field_link_button
+  module:
+    - link
+id: block_content.column_with_background.field_link_button
+field_name: field_link_button
+entity_type: block_content
+bundle: column_with_background
+label: 'Link Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

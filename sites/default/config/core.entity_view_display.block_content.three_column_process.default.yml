@@ -1,0 +1,31 @@
+uuid: 3a26d9f1-63ea-4539-bb1b-e6c237360fa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.three_column_process
+    - field.field.block_content.three_column_process.body
+    - field.field.block_content.three_column_process.field_process_text
+  module:
+    - text
+id: block_content.three_column_process.default
+targetEntityType: block_content
+bundle: three_column_process
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_process_text:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

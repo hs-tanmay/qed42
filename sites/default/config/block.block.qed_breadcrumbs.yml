@@ -1,0 +1,22 @@
+uuid: 706a353a-1f20-4a1b-9d31-6885bdf6b942
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qed
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: qed_breadcrumbs
+theme: qed
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 5c233e9f-639d-48b2-b80f-87139d0baa4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.slider
+id: node.slider.field_weight
+field_name: field_weight
+entity_type: node
+bundle: slider
+label: Weight
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

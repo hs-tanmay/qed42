@@ -1,0 +1,20 @@
+uuid: 05333e6d-8821-4ccc-86c4-63129383f46b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - qed
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: qed_page_title
+theme: qed
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

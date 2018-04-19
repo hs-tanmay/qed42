@@ -1,0 +1,31 @@
+uuid: 80bf771c-aae7-4d3f-83cc-e8cd8b0b076f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:column_with_background:3c03b490-9693-4c5a-a75e-32f17791dde7'
+  module:
+    - block_content
+    - system
+  theme:
+    - qed
+id: informationregardingbitcoin
+theme: qed
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:3c03b490-9693-4c5a-a75e-32f17791dde7'
+settings:
+  id: 'block_content:3c03b490-9693-4c5a-a75e-32f17791dde7'
+  label: 'Information regarding bitcoin'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: a8c6b095-7d68-4529-973d-0bcf07e58b3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.three_column_process
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.three_column_process.body
+field_name: body
+entity_type: block_content
+bundle: three_column_process
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
