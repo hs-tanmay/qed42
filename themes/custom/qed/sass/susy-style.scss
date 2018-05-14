@@ -7,16 +7,17 @@
 @import 'susy-demo/main-content';
 
 .susy-main-content-wrapper {
- .well {
-   background-color: inherit;
-   border: 1px solid transparent;
-   padding: inherit;
-   box-shadow: inherit;
- }
- h1.page-header {
- 	display: none;
- }
+  .well {
+    background-color: inherit;
+    border: 1px solid transparent;
+    padding: inherit;
+    box-shadow: inherit;
+  }
+  h1.page-header {
+    display: none;
+  }
 }
+
 * {
-    font-family: lato,sans-serif;
+  font-family: lato, sans-serif;
 }

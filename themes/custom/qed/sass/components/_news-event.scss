@@ -1,17 +1,19 @@
-.news-event-wrapper { 
+.news-event-wrapper {
   .views-field.views-field-nothing {
     margin: auto;
     width: 90%;
     border: 1px solid #e5e5e5;
   }
 }
+
 h4.entry-title {
-    line-height: 1.2;
-    font-size: 24px;
-    a {
-      color: #333333;
-    }
+  line-height: 1.2;
+  font-size: 24px;
+  a {
+    color: #333333;
+  }
 }
+
 @media (min-width: 1200px) {
   .item-content.with_overlapped_button {
     padding: 55px;
