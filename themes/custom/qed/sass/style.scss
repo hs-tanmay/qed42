@@ -2,3 +2,15 @@
 @import 'variables/variables';
 @import 'components/column-with-background';
 @import 'components/_news-event';
+
+ .box {
+          display: flex;
+          flex-direction: row;
+      	  flex-wrap: wrap;
+          width:100%
+        }
+
+        .box :nth-child(1) { order: 2; }
+        .box :nth-child(2) { order: 3; }
+        .box :nth-child(3) { order: 1; }
+

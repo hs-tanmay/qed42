@@ -1,0 +1,22 @@
+@import 'susy';
+@import 'breakpoint';
+@import 'susy-demo/susy-grid';
+@import 'susy-demo/left-sidebar';
+@import 'susy-demo/right-sidebar';
+@import 'susy-demo/two-components';
+@import 'susy-demo/main-content';
+
+.susy-main-content-wrapper {
+ .well {
+   background-color: inherit;
+   border: 1px solid transparent;
+   padding: inherit;
+   box-shadow: inherit;
+ }
+ h1.page-header {
+ 	display: none;
+ }
+}
+* {
+    font-family: lato,sans-serif;
+}

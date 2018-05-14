@@ -1,0 +1,18 @@
+/* -- main content two column component -- */
+.left-column-content {
+  @include span(6 of 12);	
+}
+.sright-column-content {
+  @include span(6 at 7 of 12);
+}
+/* -- main content two column component ends here -- */
+
+/* -- main content image grid -- */
+.image-gallery-wrapper {
+  margin-top: 25px;
+  img {
+    @include span(6 of 12);
+    padding-bottom: 1.66666%;
+	}
+}
+/* -- main content image grid ends here -- */

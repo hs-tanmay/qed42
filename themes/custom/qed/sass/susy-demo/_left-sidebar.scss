@@ -1,0 +1,47 @@
+/* first sidebar code */
+.view-blog-listing {
+  .views-row {
+    margin: 0 0 30px;
+    overflow: hidden;
+    list-style-type: none;
+   }
+  .post-image {
+    width: 90px;
+    height: auto;
+    float: left;
+  }
+  .post-content {
+    padding-left: 105px;
+    float: none;
+    width: 100%;
+    padding-top: 5px;
+  }
+  .post-title {
+    a {
+      font-weight: 400;
+      color: #222;
+      font-family: oswald,sans-serif;
+      text-decoration: none;
+      }
+  }
+  .post-meta {
+    font-size: 11px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 0 10px;
+    color: #757575;
+  }
+}
+.vivid-cyan-title {
+  h2.block-title {
+    background: 0 0;
+    position: relative;
+    color: #1da5df;
+    border-bottom: 1px solid #1da5df;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+/* first sidebar code ends here */

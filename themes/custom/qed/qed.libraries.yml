@@ -2,3 +2,7 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+susy-demo:
+  css:
+    theme:
+      css/susy-style.css: {}

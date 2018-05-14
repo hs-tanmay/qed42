@@ -1,0 +1,317 @@
+/* -- main layout -- */
+/* main layout ends here -- */
+@media (min-width: 768px) {
+  /* line 14, ../sass/susy-demo/_susy-grid.scss */
+  .sidebar-first {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+
+  /* line 17, ../sass/susy-demo/_susy-grid.scss */
+  .susy-main-content {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+
+  /* line 21, ../sass/susy-demo/_susy-grid.scss */
+  .sidebar-second {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 25%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+/* -- content region  -- */
+/* line 27, ../sass/susy-demo/_susy-grid.scss */
+.left-column-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 30, ../sass/susy-demo/_susy-grid.scss */
+.right-column-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/*  -- content region ends here -- */
+/* -- main content 4-8 layout -- */
+/* line 36, ../sass/susy-demo/_susy-grid.scss */
+.image-field-wrapper {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 39, ../sass/susy-demo/_susy-grid.scss */
+.description-field-wrapper {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* -- main content 4-8 layout ends here -- */
+/* line 44, ../sass/susy-demo/_susy-grid.scss */
+body {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* first sidebar code */
+/* line 3, ../sass/susy-demo/_left-sidebar.scss */
+.view-blog-listing .views-row {
+  margin: 0 0 30px;
+  overflow: hidden;
+  list-style-type: none;
+}
+/* line 8, ../sass/susy-demo/_left-sidebar.scss */
+.view-blog-listing .post-image {
+  width: 90px;
+  height: auto;
+  float: left;
+}
+/* line 13, ../sass/susy-demo/_left-sidebar.scss */
+.view-blog-listing .post-content {
+  padding-left: 105px;
+  float: none;
+  width: 100%;
+  padding-top: 5px;
+}
+/* line 20, ../sass/susy-demo/_left-sidebar.scss */
+.view-blog-listing .post-title a {
+  font-weight: 400;
+  color: #222;
+  font-family: oswald,sans-serif;
+  text-decoration: none;
+}
+/* line 27, ../sass/susy-demo/_left-sidebar.scss */
+.view-blog-listing .post-meta {
+  font-size: 11px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 0 10px;
+  color: #757575;
+}
+
+/* line 36, ../sass/susy-demo/_left-sidebar.scss */
+.vivid-cyan-title h2.block-title {
+  background: 0 0;
+  position: relative;
+  color: #1da5df;
+  border-bottom: 1px solid #1da5df;
+  margin: 0 0 20px;
+  padding: 0 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* first sidebar code ends here */
+/* second sidebar code */
+/* line 4, ../sass/susy-demo/_right-sidebar.scss */
+.company-details-wrapper li {
+  border: 0;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  float: left;
+  width: 100%;
+}
+/* line 11, ../sass/susy-demo/_right-sidebar.scss */
+.company-details-wrapper li a {
+  padding: 10px 10px 10px 20px;
+  display: block;
+  border: 1px solid #eee;
+  text-transform: none;
+  font-size: 13px;
+  overflow: hidden;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+  -moz-transition: all .35s;
+  -ms-transition: all .35s;
+  position: relative;
+  font-weight: 400 !important;
+  color: #222;
+}
+/* line 26, ../sass/susy-demo/_right-sidebar.scss */
+.company-details-wrapper li a:hover {
+  color: #1da5df;
+}
+
+/* line 32, ../sass/susy-demo/_right-sidebar.scss */
+.description-button-wrapper {
+  background: #f6f6f6;
+  color: #999;
+  padding: 30px;
+}
+/* line 36, ../sass/susy-demo/_right-sidebar.scss */
+.description-button-wrapper h2.block-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+/* line 41, ../sass/susy-demo/_right-sidebar.scss */
+.description-button-wrapper .field--name-field-button {
+  margin-top: 20px;
+}
+/* line 43, ../sass/susy-demo/_right-sidebar.scss */
+.description-button-wrapper .field--name-field-button a {
+  background: #1da5df;
+  color: #fff;
+  overflow: hidden;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 22px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  text-decoration: none;
+  border: 1px solid #1da5df;
+}
+/* line 61, ../sass/susy-demo/_right-sidebar.scss */
+.description-button-wrapper .field--name-field-button a:hover {
+  color: #757575;
+  background: #f5f5f5;
+  border: 1px solid #757575;
+}
+
+/* line 69, ../sass/susy-demo/_right-sidebar.scss */
+.company-presentation-wrapper {
+  margin-bottom: 30px;
+}
+/* line 71, ../sass/susy-demo/_right-sidebar.scss */
+.company-presentation-wrapper h2.block-title {
+  color: #222;
+}
+
+/* line 76, ../sass/susy-demo/_right-sidebar.scss */
+.help-block-wrapper .description-button-wrapper {
+  background: #1da5df;
+  color: #fff;
+}
+/* line 81, ../sass/susy-demo/_right-sidebar.scss */
+.help-block-wrapper .field--name-field-button a {
+  color: #222;
+  border: 1px solid #fff;
+  background: #fff;
+}
+/* line 85, ../sass/susy-demo/_right-sidebar.scss */
+.help-block-wrapper .field--name-field-button a:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background: #1da5df;
+}
+
+/* second sidebar code ends here */
+/* line 2, ../sass/susy-demo/_two-components.scss */
+.two-col-title h2.block-title {
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #202020;
+  margin-bottom: 12.5px;
+}
+
+/* -- main content two column component -- */
+/* line 2, ../sass/susy-demo/_main-content.scss */
+.left-column-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 5, ../sass/susy-demo/_main-content.scss */
+.sright-column-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* -- main content two column component ends here -- */
+/* -- main content image grid -- */
+/* line 11, ../sass/susy-demo/_main-content.scss */
+.image-gallery-wrapper {
+  margin-top: 25px;
+}
+/* line 13, ../sass/susy-demo/_main-content.scss */
+.image-gallery-wrapper img {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  padding-bottom: 1.66666%;
+}
+
+/* -- main content image grid ends here -- */
+/* line 10, ../sass/susy-style.scss */
+.susy-main-content-wrapper .well {
+  background-color: inherit;
+  border: 1px solid transparent;
+  padding: inherit;
+  box-shadow: inherit;
+}
+/* line 16, ../sass/susy-style.scss */
+.susy-main-content-wrapper h1.page-header {
+  display: none;
+}
+
+/* line 20, ../sass/susy-style.scss */
+* {
+  font-family: lato,sans-serif;
+}

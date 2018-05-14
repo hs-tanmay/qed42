@@ -1,0 +1,46 @@
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+  math: fluid,
+);
+@include layout($susy float inside);
+@include with-layout(12) {
+/* -- main layout -- */
+
+/* main layout ends here -- */
+
+@include breakpoint(768px) {
+.sidebar-first {
+  @include span(3 of 12 first); 
+}
+.susy-main-content {
+  @include span(6 at 4 of 12);
+
+}
+.sidebar-second {
+  @include span(3 at 10 of 12 lass);
+}
+}
+
+/* -- content region  -- */
+.left-column-content {
+  @include span(6 of 12); 
+}
+.right-column-content {
+  @include span(6 at 7 of 12);
+}
+/*  -- content region ends here -- */
+
+/* -- main content 4-8 layout -- */
+.image-field-wrapper  {
+  @include span(4 of 12); 
+}
+.description-field-wrapper  {
+  @include span(8 at 5 of 12);
+}
+/* -- main content 4-8 layout ends here -- */
+}
+body {
+  @include container(90%);
+}

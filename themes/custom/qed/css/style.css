@@ -137,3 +137,25 @@ h4.entry-title a {
     padding: 55px;
   }
 }
+/* line 6, ../sass/style.scss */
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* line 13, ../sass/style.scss */
+.box :nth-child(1) {
+  order: 2;
+}
+
+/* line 14, ../sass/style.scss */
+.box :nth-child(2) {
+  order: 3;
+}
+
+/* line 15, ../sass/style.scss */
+.box :nth-child(3) {
+  order: 1;
+}
